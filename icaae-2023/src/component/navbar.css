@@ -1,0 +1,49 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Geologica:wght@300&family=Noto+Sans:wght@300&family=Ysabeau+Office:ital,wght@1,1&display=swap');
+
+
+nav{
+        height: 7rem;
+        width:100vw;
+        background: rgb(43, 86, 150);
+        display: grid;
+        place-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 99;
+}
+
+.logo{
+        width: 3rem;
+        background: transparent;
+        margin-right: 1rem   ;
+ }
+ .nav_container{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+   
+ }
+ .nav_links{
+    display: flex;
+    gap:3.5rem;
+    align-items: center;
+    list-style: none;
+    padding-bottom: 0.1rem;
+    
+    
+  
+ }
+ .nav_links a{
+    text-decoration: none;
+    color: black;
+    transition:all 500ms ease;
+    font-family: 'Geologica', sans-serif;
+    
+    
+ }
+ .nav_links a:hover{
+    color: goldenrod;
+ }
